@@ -1,5 +1,7 @@
 .navbar {
-  margin: 0rem 1rem;
+  background: white;
+  position: fixed;
+  width: 100%;
   top: 0;
   padding: 1rem;
   display: flex;
@@ -32,6 +34,7 @@
 .navbar .logo {
   padding-left: 1rem;
   height: auto;
+  color: #2bae66;
 }
 .navbar .logo h3 {
   margin-block-start: 0;
