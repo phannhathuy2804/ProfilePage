@@ -1,17 +1,39 @@
 .navbar {
-  background-color: lightblue;
-  position: fixed;
+  margin: 0rem 1rem;
   top: 0;
-  width: 100%;
-  padding: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #4f4f4f;
 }
 
 .navbar .nav {
   margin-left: auto;
-  margin-right: 0;
   width: fit-content;
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  justify-content: space-evenly;
+  justify-content: flex-end;
+}
+
+.navbar .nav a {
+  background: #2bae66ff;
+  padding: 0.3rem;
+  color: white;
+  border-radius: 7px;
+}
+
+.navbar .nav a:hover {
+  background: #075c1f;
+  transform: scale(1.05, 1.05);
+}
+
+.navbar .logo {
+  padding-left: 1rem;
+  height: auto;
+}
+.navbar .logo h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
