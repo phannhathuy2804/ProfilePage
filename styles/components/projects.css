@@ -1,0 +1,8 @@
+.projects {
+  background: #84cef6;
+  display: block;
+}
+
+.projects .content {
+  display: relative;
+}
