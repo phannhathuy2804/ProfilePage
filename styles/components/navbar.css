@@ -20,7 +20,7 @@
 }
 
 .navbar .nav a {
-  background: #2bae66ff;
+  background: #84cef6;
   padding: 0.3rem;
   color: white;
   border-radius: 7px;
@@ -34,7 +34,7 @@
 .navbar .logo {
   padding-left: 1rem;
   height: auto;
-  color: #2bae66;
+  color: #84cef6;
 }
 .navbar .logo h3 {
   margin-block-start: 0;
