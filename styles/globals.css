@@ -17,3 +17,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.content {
+  position: relative;
+  top: 10vh;
+  margin: 4.2rem 5% 0rem;
+}
