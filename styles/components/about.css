@@ -1,0 +1,15 @@
+.about {
+  background: #ffffff;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.about .container {
+  position: relative;
+  display: flex;
+  background: #84cef6;
+}
+
+.about .content .title {
+  color: black;
+}
