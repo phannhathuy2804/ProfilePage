@@ -1,13 +1,19 @@
 .about {
   background: #ffffff;
-  height: 100vh;
-  overflow: hidden;
+  display: block;
+  padding-bottom: 8rem;
 }
 
 .about .container {
   position: relative;
-  display: flex;
+  display: block;
   background: #84cef6;
+  opacity: 0.7;
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .about .content .title {
