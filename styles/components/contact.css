@@ -1,0 +1,9 @@
+.contact {
+    background: #ffffff;
+    display: block;
+    height: 100vh;
+}
+
+.contact .content {
+    display: relative;
+}

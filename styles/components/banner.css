@@ -1,24 +1,83 @@
 .banner {
-  background: #84cef6;
-  height: 100vh;
-  overflow: hidden;
+    background: #84cef6;
+    height: 100vh;
+    overflow: hidden;
 }
 .banner .content {
-  position: relative;
-  top: 5rem;
+    position: relative;
+    display: flex;
+    gap: 5rem;
+    flex-direction: row;
+    top: 5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.banner .content .profile {
+    flex-basis: 100%;
+}
+
+.banner .content .aboutMe {
+    flex-basis: 100%;
+}
+
+.banner .content .aboutMe .container {
+    position: relative;
+    display: block;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 70vh;
+    overflow: scroll;
+}
+
+.banner .content .aboutMe .container:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.banner .content .aboutMe .container .description {
+    position: relative;
+    height: 100%;
 }
 .banner .title {
-  margin: 0;
-  color: #00318b;
+    margin: 0;
+    color: #00318b;
 }
 
 .banner h1 {
-  font-size: 4rem;
-  line-height: 1.3;
+    font-size: 4rem;
+    line-height: 1.3;
 }
 
 .banner h2 {
-  font-size: 2.5rem;
-  font-weight: 100;
-  line-height: 1.2;
+    font-size: 2.5rem;
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+.title.name {
+    /* the color  */
+    --c: #00318b;
+    /* the height */
+    --h: 1.2em;
+
+    /* The first hover effect in this article */
+    line-height: var(--h);
+    color: #0000;
+    overflow: hidden;
+    text-shadow: 0 calc(-1 * var(--_t, 0em)) var(--c),
+        0 calc(var(--h) - var(--_t, 0em)) #fff;
+    /* The second hover effect from the previous article */
+    background: linear-gradient(var(--c) 0 0) no-repeat
+        calc(200% - var(--_p, 0%)) 100% / 200% var(--_p, 0.08em);
+    transition: 0.3s var(--_s, 0s),
+        background-position 0.3s calc(0.3s - var(--_s, 0s));
+}
+.title.name:hover {
+    --_t: var(--h);
+    --_p: 100%;
+    --_s: 0.3s;
 }

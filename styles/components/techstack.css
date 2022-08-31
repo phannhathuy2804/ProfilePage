@@ -1,0 +1,75 @@
+.techstack {
+    background: #ffffff;
+    display: block;
+    padding-top: 2rem;
+    height: max-content;
+}
+
+.techstack .content {
+    margin: 0 5%;
+    height: 100hv;
+}
+
+.techstack .content .content {
+    padding-top: 0%;
+}
+.techstack .content .skills .skill {
+    position: relative;
+    display: block;
+    background: #84cef6;
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 15rem;
+}
+
+.techstack .content .skills .skill:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.techstack .content .title {
+    color: black;
+    margin-top: 0;
+}
+
+.techstack .content .experiences {
+    margin-top: 5%;
+}
+
+.techstack .content .experiences .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10%;
+}
+
+.techstack .content .experiences .content .experience {
+    position: relative;
+    display: block;
+    background: #84cef6;
+    padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    flex-basis: 100%;
+}
+
+.techstack .content .experiences .content .experience:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.techstack .content .experiences .content h3 {
+    margin: 0;
+}

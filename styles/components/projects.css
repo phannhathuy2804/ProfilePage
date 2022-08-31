@@ -1,8 +1,48 @@
 .projects {
-  background: #84cef6;
-  display: block;
+    background: #84cef6;
+    display: block;
 }
 
 .projects .content {
-  display: relative;
+    display: relative;
+}
+
+.projects .content .project-list .project {
+    position: relative;
+    display: flex;
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    gap: 2rem;
+}
+
+.projects .content .project-list .project:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.projects .content .project-list .project .photo {
+    display: block;
+    max-width: 20rem;
+    max-height: 15rem;
+    width: 100%;
+    height: fit-content;
+}
+
+.projects .content .project-list .project .photo img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    border-style: ridge;
+    margin: auto;
+}
+
+.projects .content .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }

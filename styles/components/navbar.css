@@ -1,45 +1,49 @@
 .navbar {
-  background: #ffffff;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #4f4f4f;
-  z-index: 1;
+    background: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #4f4f4f;
+    z-index: 1;
 }
 
 .navbar .nav {
-  margin-left: auto;
-  width: fit-content;
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  justify-content: flex-end;
+    margin-left: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: flex-end;
 }
 
 .navbar .nav a {
-  background: #84cef6;
-  padding: 0.3rem;
-  color: white;
-  border-radius: 7px;
+    background: #84cef6;
+    padding: 0.3rem;
+    color: white;
+    border-radius: 7px;
 }
 
 .navbar .nav a:hover {
-  background: #00318b;
-  transform: scale(1.05, 1.05);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background: #00318b;
+    transform: scale(1.05, 1.05);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .navbar .logo {
-  padding-left: 1rem;
-  height: auto;
-  color: #84cef6;
+    padding-left: 1rem;
+    height: auto;
+    color: #84cef6;
 }
 .navbar .logo h3 {
-  margin-block-start: 0;
-  margin-block-end: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.socialLink:hover {
+    color: #00318b;
 }
