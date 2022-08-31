@@ -10,6 +10,7 @@ const Navbar = () => {
                 <a
                     className="socialLink"
                     target={"_blank"}
+                    rel={"noopener noreferrer"}
                     href="https://github.com/phannhathuy2804"
                 >
                     <FontAwesomeIcon
@@ -20,6 +21,7 @@ const Navbar = () => {
                 &ensp;
                 <a
                     className="socialLink"
+                    rel={"noopener noreferrer"}
                     target={"_blank"}
                     href="https://www.linkedin.com/in/james-phan-2804/"
                 >
